@@ -1,0 +1,12 @@
+build/
+.vscode/
+cmake-build-debug/
+.idea
+.cache/
+test/slab_test/ssd
+test/slab_test/log
+.DS_Store
+ src/.DS_Store
+._*
+ssd
+.uuid

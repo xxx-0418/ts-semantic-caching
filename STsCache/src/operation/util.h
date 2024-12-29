@@ -1,0 +1,5 @@
+
+#ifndef SEMANTIC_CACHE_UTIL_H
+#define SEMANTIC_CACHE_UTIL_H
+
+#endif

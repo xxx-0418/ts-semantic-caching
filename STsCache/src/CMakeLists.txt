@@ -1,0 +1,17 @@
+add_subdirectory(type)
+add_subdirectory(catalog)
+# add_subdirectory(binder)
+# add_subdirectory(parser)
+add_subdirectory(common)
+# add_subdirectory(shuffle)
+# add_subdirectory(sender)
+# add_subdirectory(execution)
+# add_subdirectory(plans)
+add_subdirectory(storage)
+# add_subdirectory(merge)
+ add_subdirectory(operators)
+add_subdirectory(operation)
+
+add_library(semantic_cache_lib STATIC ${ALL_OBJECT_FILES})
+
+add_subdirectory(cmd)
